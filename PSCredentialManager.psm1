@@ -129,7 +129,12 @@ Function Get-PSCredCertificate()
         Parameter(Mandatory=$true,
         HelpMessage="Enter the certificate thumbprint.")]
         [string]
-        $CertThumbprint           
+        $CertThumbprint,
+        
+        # PublicOnly
+        [Parameter(Mandatory=$false)]
+        [switch]
+        $PublicOnly
     )
     # Replace spaces and colons just in case they were added 
     $CertThumbprint = $CertThumbprint.Replace(":","").Replace(" ","")
