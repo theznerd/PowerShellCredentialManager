@@ -9,9 +9,9 @@
 A PowerShell module to somewhat securely store and retrieve passwords and usernames in SQL.
 
 .DESCRIPTION
-A PowerShell module to store and retrieve passwords and usernames in a SQL database using computer certificates 
-to encrypt usernames and passwords which you wish to reuse across computers and don't want to store in cleartext 
-or manually encrypt for each device that uses them.
+A PowerShell module to store and retrieve passwords and usernames in a SQL database using certificates to encrypt 
+usernames and passwords which you wish to reuse across computers and don't want to store in cleartext or manually 
+encrypt for each device that uses them.
 
 .EXAMPLE
 Load this as a module for whatever script you wish to call it from.
